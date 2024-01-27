@@ -1,0 +1,56 @@
+:root{
+    --castom-color: #b88f4d;
+    --text-first-color: #debb5f;
+    --btn-active-color: #55473a;
+    --btn-active-text-color: #deca88;
+    --bg-color: #e6e6e6;
+    --new-color: #79ca4ab9;
+    --fair-color: #da4949d0;
+    --everyday-color: #5f9ea073;
+}
+
+body{
+    background: var(--bg-color);
+}
+A:link { 
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+    color: var(--btn-active-color); /* Цвет ссылки */
+} 
+A:visited { text-decoration: none;
+    color: var(--btn-active-color); /* Цвет ссылки */ 
+} 
+A:active { text-decoration: none;
+    color: var(--btn-active-color); /* Цвет ссылки */ 
+}
+A:hover {
+text-decoration: underline; /* Делает ссылку подчеркнутой при наведении на нее курсора */
+color: var(--btn-active-color); /* Цвет ссылки */
+} 
+.icon-mini{
+    width: 100px;
+    height: 100px;
+    align-items: center;
+}
+.button{
+    background-color: var(--castom-color);
+    color: var(--bg-color);
+    font-weight: 600;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.3rem 1rem;
+    transition: all 500ms ease; 
+}
+.button:hover{
+    background-color: var(--btn-active-color);
+    color: var(--btn-active-text-color);
+
+}
+.new{
+    background: var(--new-color);
+}
+.fair{
+    background: var(--fair-color);
+}
+.everyday{
+    background: var(--everyday-color);
+}
